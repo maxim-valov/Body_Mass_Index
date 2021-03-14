@@ -8,9 +8,8 @@
         BodyMassIndexService service = new BodyMassIndexService();
         double weight = 100.50;
         double height = 187;
-        double bmi
-        bmi = service.calculate(weight,height);
-        System.out.println (bmi);
+        double bmi = service.calculate(weight,height);
+        System.out.printf("Body Mass Index: %.1f", bmi);
     }
 }
  ```
